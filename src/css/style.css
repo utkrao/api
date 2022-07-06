@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 181, 117);
+}
+
+.header h1 {
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#inputdata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 25%;
+    height: 5rem;
+    border: 2px solid #000000;
+    margin: 0 0px 0 575px;
+    box-shadow: 2px 2px #2b2929;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-tran {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
